@@ -5,8 +5,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Noor Birthday Gift ",
-  description: "By someone you don't wnanna know ",
+  title: "Noor | Birthday | Gift ",
+  description: "By someone you  know ",
+  openGraph:{
+    title: "Noor | Birthday | Gift ",
+    description: "By someone you  know ",
+    url: "https://noor-birthday-gift.vercel.app/",
+    images: "/graph.jpeg",
+
+  }
 };
 
 export default function RootLayout({
